@@ -1,0 +1,96 @@
+1: 1.75 - 9:00 am start on 10/27/16: met project team, connected to robot (wired), commanded robot
+                                     to cycle LED on and off 10 times, practiced container object
+                                     creation and use
+    
+1: 0.25 - 11:30 am start on 10/27/16: reviewed coding performed in class for understanding, debugged
+                                      m1 file due to error when 'Print stuff' button pressed                                    
+
+1: 0.25 - 1:00 pm start on 10/27/16: debugged m1 file for same error and notified team member of
+                                     cause of error
+                                 
+1: 0.5 - 1:30 pm start on 10/27/16: reviewed coding performed in class for understanding, communicated
+                                    with team members
+                                
+1: 1.75 - 9:00 am start on 10/31/16: planning/discussion of implementation of "green" features,
+                                     implemented connect/disconnect to robot feature
+                                 
+1: 0.5 - 11:15 am start on 10/31/16: implemented connect/disconnect to robot feature
+
+1: 4.0 - 12:45 pm start on 10/31/16: additional implementation of connect/disconnect feature
+
+1: 2.25 - 6:45 pm start on 10/31/16: additional implementation of connect/disconnect feature,
+                                     communication with team regarding changes, update hours.txt
+                                     format for hours worked feature
+                                  
+1: 1.0 - 9:30 pm start on 10/31/16: minor changes to connect/disconnect feature, read m1 hours_in_GUI()
+                                    feature
+                                 
+1: 1.75 - 9:00 am start on 11/2/16: test connect/disconnect, LED blinking, hours, play random notes
+                                    and move with actual robot. Unable to successfully move robot
+                                    or blink LED
+
+1: 0.25 - 7:40 pm start on 11/2/16: begin feature implementation for moving robot autonomously until
+                                    bump or cliff sensor indicate obstruction or cliff edge
+                                 
+1: 0.5 - 8:15 pm start on 11/2/16: continue implemenation of above feature; primarily design comments
+
+2: 1.75 - 9:00 am start on 11/3/16: implementation of above feature, collaboration on move feature
+
+2: 1.0 - 7:45 pm start on 11/3/16: review of standard rosebot library, communication with team (email)
+
+2: 0.75 - 9:30 pm start on 11/5/16: additional coding for implementation of sensors to stop movement
+
+2: 1.75 - 9:00 am start on 11/7/16: left bump sensor button functioning - instance variable in dc
+                                    indicates True/False whether sensor is "active" for purposes of
+                                    controlling motor on/off (to be implemented)
+                                 
+2: 1.5 - 9:30 am start on 11/8/16: met with part of team to work on implementation, modified connect
+                                   feature to include "Connect Wired" and "Connect Wireless" buttons,
+                                   attempted to implement left_bump_sensor.is_pressed()
+                                
+2: 0.5 - 10:15 am start on 11/9/16: tested move feature with sensor control (left_bump_sensor), tested
+                                    play jingle bells and remote control feature
+                                 
+2: 0.5 - 2:15 pm start on 11/9/16: modified sensor move feature to call infinite move and then continually
+                                   monitor sensor status (stopping when bump sensor pressed), instead of
+                                   moving small distances and checking to see if sensor pressed before
+                                   deciding whether or not to move again; feature needs to be tested
+                                   with actual robot for proper response. also added checks to verify
+                                   bump sensor "active" and bump sensor not currently pressed (either
+                                   case prevents movement from beginning, with message displayed to
+                                   console (eventually to be displayed on frame)). features will be
+                                   scaled to additional sensors (right_bump, reflectance, etc.).
+                                
+3: 1.75 - 9:00 am start on 11/10/16: tested wireless feature successfully. tested change to sensor move
+                                     function successfully. added status messages to frame for sensor
+                                     move. added right bump sensor button (partial implementation)
+                                     
+3: 4.5 - 12:45 pm start on 11/10/16: added reflectance sensor monitoring
+
+3: 0.5 - 1:30 pm start on 11/11/16: met with Professor Mutchler for code review and suggestions for
+                                    improvement
+                                    
+3: 3.75 - 2:30 pm start on 11/11/16: modified code for efficiency in setting up labels/buttons for
+                                     various sensors. added status messages for movement feature, storing
+                                     some in sequence type instance variable. modified code for checking
+                                     sensors during movement to be more efficient (less redundancy).
+
+3: 3.75 - 8:15 pm start on 11/11/16: modified m0, m2 for efficiency (notes in svn for each commit),
+                                     project planning
+                                     
+3: 2.75 - 1:30 pm start on 11/12/16: refactored connect feature, added instance variable in m0 to aid
+                                     in refactoring, began implementation of track object feature
+                                     
+3: 5.5 - 3:00 pm start on 11/13/16: correct bugs, real time sensor readings displayed, attempt to
+                                    implement follow_object feature with help of professor. made
+                                    some progress, but not fully functioning.
+                                    
+3: 1.25 - 7:15 am start on 11/14/16: added dc.textvariable sequence to m0; used in m2 for setup of
+                                     stringVar() variables to assign to each ttk.Entry's textvariable
+                                     option. changed foo() to switch direction upon each return from
+                                     sensor_move_callback, but commented out for now until it can be
+                                     tested
+                                     
+3: 1.25 - 10:45 am start on 11/16/16: tested code changes in foo(). commented back out because not
+                                      functioning properly (not changing direction in entry). worked
+                                      with m3 for calibration of move to waypoint feature.                                    
